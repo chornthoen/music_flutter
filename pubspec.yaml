@@ -1,0 +1,38 @@
+name: music_flutter
+description: Flutter Music
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  audio_video_progress_bar: ^2.0.3
+  bloc: ^8.1.4
+  cached_network_image: ^3.4.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_localizations:
+    sdk: flutter
+  go_router: ^14.3.0
+  intl: ^0.19.0
+  just_audio: ^0.9.41
+  just_audio_background: ^0.0.1-beta.13
+  rxdart: ^0.28.0
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  bloc_test: ^9.1.7
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/
+    - assets/images/
