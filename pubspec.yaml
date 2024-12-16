@@ -18,7 +18,7 @@ dependencies:
   go_router: ^14.3.0
   intl: ^0.19.0
   just_audio: ^0.9.41
-  just_audio_background: ^0.0.1-beta.13
+  just_audio_background: ^0.0.1-beta.14
   rxdart: ^0.28.0
   audioplayers: ^6.1.0
 
